@@ -1,0 +1,43 @@
+
+.main-wrapper {
+    min-height: 700px;
+    padding: 50px 0;
+}
+
+.blogCard {
+    display:flex;
+    height: 150px;
+    margin: 70px 50px;
+}
+
+.blogPhoto {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background:rgb(226, 208, 106);
+    border: 5px solid $secondary-color;
+    font-size: 80px;
+    padding: 0px 50px;
+}
+
+.blog-preview {
+    margin-left: 20px;
+
+}
+
+.blog-preview h2 a {
+    color: black;
+}
+
+.blogCard p {
+    line-height: 1em;
+}
+
+i {
+    color: rgb(70, 70, 70);
+}
+
+.hero-content a  {
+    line-height: 0;
+}
+

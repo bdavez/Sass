@@ -6,7 +6,7 @@ gulp.task ('test', function()  {
 })
 
 gulp.task ('style', function()  {
-    gulp.src('./sass/*.scss')
+    gulp.src('./sass/app.scss')
         .pipe(sass())
         .pipe(gulp.dest('./css'))
 })

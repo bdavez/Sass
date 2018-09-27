@@ -99,5 +99,54 @@ header {
       right: 25px;
       font-size: 36px;
       margin-left: 50px;
-      padding: 0;
-      background: none; }
+      padding: 0; }
+
+.hero {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url("../Pictures/kari-shea-109894-unsplash.jpg");
+  height: 700px;
+  width: 1000;
+  background-size: cover;
+  background-position: 50% 20%;
+  color: white; }
+
+.hero-content {
+  padding-top: 150px; }
+
+.hero-content h1 p {
+  margin-left: 50px; }
+
+.hero-content a {
+  color: white; }
+
+.main-wrapper {
+  min-height: 700px;
+  padding: 50px 0; }
+
+.blogCard {
+  display: flex;
+  height: 150px;
+  margin: 70px 50px; }
+
+.blogPhoto {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #e2d06a;
+  border: 5px solid #229599;
+  font-size: 80px;
+  padding: 0px 50px; }
+
+.blog-preview {
+  margin-left: 20px; }
+
+.blog-preview h2 a {
+  color: black; }
+
+.blogCard p {
+  line-height: 1em; }
+
+i {
+  color: #464646; }
+
+.hero-content a {
+  line-height: 0; }
