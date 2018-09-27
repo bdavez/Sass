@@ -1,0 +1,46 @@
+/* * * * * * * * * * * * * * * * * * * * *
+Hero
+* * * * * * * * * * * * * * * * * * * * */
+.hero {
+    background: rgb(34, 149, 153);
+    height: 400px;
+    width: 1000;
+}
+
+
+.hero-content h1 {
+    padding-top: 150px;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * *
+Main
+* * * * * * * * * * * * * * * * * * * * */
+.main-wrapper {
+    min-height: 700px;
+    padding: 50px 0;
+    background: rgb(235, 235, 235);
+}
+
+.blogCard {
+    display:flex;
+    float: left;
+    width: 75%;
+    height: 200px;
+}
+
+.blogPhoto {
+    height: 150px;
+    width: 300px;
+    background:rgb(226, 208, 106);
+}
+
+.blog-preview {
+    margin-left: 20px;
+
+}
+.blogCard p {
+    line-height: 1em;
+}
+
+
