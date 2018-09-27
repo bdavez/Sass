@@ -7,9 +7,16 @@ Hero
     width: 1000;
 }
 
-
-.hero-content h1 {
+.hero-content {
     padding-top: 150px;
+}
+
+.hero-content h1 p{
+    margin-left: 50px;
+}
+
+a {
+    color: black;
 }
 
 
@@ -19,20 +26,21 @@ Main
 .main-wrapper {
     min-height: 700px;
     padding: 50px 0;
-    background: rgb(235, 235, 235);
 }
 
 .blogCard {
     display:flex;
-    float: left;
-    width: 75%;
-    height: 200px;
+    height: 150px;
+    margin: 70px 50px;
 }
 
 .blogPhoto {
-    height: 150px;
-    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     background:rgb(226, 208, 106);
+    font-size: 80px;
+    padding: 0px 50px;
 }
 
 .blog-preview {
@@ -43,4 +51,11 @@ Main
     line-height: 1em;
 }
 
+i {
+    color: rgb(70, 70, 70);
+}
+
+.hero-content a  {
+    line-height: 0;
+}
 
