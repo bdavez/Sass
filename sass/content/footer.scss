@@ -1,0 +1,40 @@
+footer {
+
+    .footer-main {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        background: $primary-color;
+        display: flex;
+        justify-content: flex-end;
+        
+        @media screen and (max-width: 756px) {
+            justify-content: center;
+        }
+
+        ul {
+            padding: 0;
+            display: flex;
+        
+            li {
+                padding: 0;
+                margin-right: 80px;
+            
+                @media screen and (max-width: 756px) {
+                    margin-right: 40px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                a {
+                    font-size: 40px;
+                    color: $secondary-color;
+                
+                    &:hover {
+                        color: $accent-color2;   
+                    }
+                }
+            }
+        }
+    }
+}
