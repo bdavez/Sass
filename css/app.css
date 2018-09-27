@@ -1,2 +1,34 @@
-body {
-  background: #066063; }
+* {
+  box-sizing: border-box; }
+
+footer {
+  background: #4b4949;
+  padding: 20px;
+  height: 200px;
+  width: 100%; }
+
+footer h1 {
+  color: white; }
+
+footer a:hover {
+  text-decoration: none; }
+
+footer ul {
+  padding: 0; }
+
+footer li {
+  list-style: none; }
+
+footer a {
+  text-decoration: none;
+  color: #f1eded;
+  font-size: 30px; }
+
+footer-div {
+  display: flex; }
+
+.social-icons {
+  display: flex; }
+
+.social-icons li {
+  flex: 1; }
