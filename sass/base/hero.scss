@@ -8,7 +8,19 @@
     background-size: cover;
     background-position: 50% 20%;
     color: white;
+}
 
+.hero-blog-example {
+    background-image: linear-gradient(90deg,
+                    rgba(0, 0, 0, 0.4),
+                    rgba(0, 0, 0, 0)),
+                    url('../Pictures/kenny-luo-553614-unsplash.jpg');
+    height: 700px;
+    width: 1000;
+    background-size: cover;
+    background-position: 50% 80%;
+    color: white;
+    opacity: 0.90;
 }
 
 .hero-content {

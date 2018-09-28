@@ -6,23 +6,20 @@
 
 .blogCard {
     display:flex;
-    height: 150px;
-    margin: 70px 50px;
+    margin: 50px 50px;
+    padding: 50px;
 }
 
 .blogPhoto {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    background:rgb(226, 208, 106);
-    border: 5px solid $secondary-color;
-    font-size: 80px;
-    padding: 0px 50px;
+    justify-content: center;
+    background:$accent-color;
 }
 
 .blog-preview {
     margin-left: 20px;
-
 }
 
 .blog-preview h2 a {
@@ -33,11 +30,17 @@
     line-height: 1em;
 }
 
-i {
-    color: rgb(70, 70, 70);
-}
 
 .hero-content a  {
     line-height: 0;
 }
 
+
+@media (max-width: 770px) {
+    .blogCard {
+        flex-direction: column;
+    }
+    .blog-preview {
+        margin-left: 0;
+    }
+}

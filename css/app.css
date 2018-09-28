@@ -109,6 +109,15 @@ header {
   background-position: 50% 20%;
   color: white; }
 
+.hero-blog-example {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)), url("../Pictures/kenny-luo-553614-unsplash.jpg");
+  height: 700px;
+  width: 1000;
+  background-size: cover;
+  background-position: 50% 80%;
+  color: white;
+  opacity: 0.90; }
+
 .hero-content {
   padding-top: 150px; }
 
@@ -124,17 +133,15 @@ header {
 
 .blogCard {
   display: flex;
-  height: 150px;
-  margin: 70px 50px; }
+  margin: 50px 50px;
+  padding: 50px; }
 
 .blogPhoto {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  background: #e2d06a;
-  border: 5px solid #229599;
-  font-size: 80px;
-  padding: 0px 50px; }
+  justify-content: center;
+  background: #e2d06a; }
 
 .blog-preview {
   margin-left: 20px; }
@@ -145,8 +152,11 @@ header {
 .blogCard p {
   line-height: 1em; }
 
-i {
-  color: #464646; }
-
 .hero-content a {
   line-height: 0; }
+
+@media (max-width: 770px) {
+  .blogCard {
+    flex-direction: column; }
+  .blog-preview {
+    margin-left: 0; } }
