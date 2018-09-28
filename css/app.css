@@ -136,8 +136,7 @@ header {
 
 .blogCard {
   display: flex;
-  margin: 50px 50px;
-  padding: 50px; }
+  margin: 50px 0; }
   .blogCard p {
     line-height: 1em; }
 
