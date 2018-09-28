@@ -1,25 +1,23 @@
-.hero {
-    background-image: linear-gradient(90deg,
-                    rgba(0, 0, 0, 0.4),
-                    rgba(0, 0, 0, 0)),
-                    url('../Pictures/kari-shea-109894-unsplash.jpg');
+@mixin heroBackground ($blogIndexMixin1,$blogIndexMixin2,$url){
+    background: linear-gradient(90deg,$blogIndexMixin1,$blogIndexMixin2),
+                url($url);
     height: 700px;
     width: 1000;
     background-size: cover;
+}
+
+.hero {
+    @include heroBackground($blogIndexMixin1,$blogIndexMixin2,
+            '../Pictures/kari-shea-109894-unsplash.jpg');
     background-position: 50% 20%;
-    color: white;
+    color:$accent-color2;
 }
 
 .hero-blog-example {
-    background-image: linear-gradient(90deg,
-                    rgba(0, 0, 0, 0.4),
-                    rgba(0, 0, 0, 0)),
-                    url('../Pictures/kenny-luo-553614-unsplash.jpg');
-    height: 700px;
-    width: 1000;
-    background-size: cover;
+    @include heroBackground($blogIndexMixin1,$blogIndexMixin2,
+            '../Pictures/kenny-luo-553614-unsplash.jpg');
     background-position: 50% 80%;
-    color: white;
+    color: $accent-color2;
     opacity: 0.90;
 }
 
@@ -32,5 +30,9 @@
 }
 
 .hero-content a {
-    color: white;
+    color: $accent-color2;
+}
+
+.hero-content a  {
+    line-height: 0;
 }

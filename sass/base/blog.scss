@@ -8,6 +8,10 @@
     display:flex;
     margin: 50px 50px;
     padding: 50px;
+    
+    p {
+        line-height: 1em;
+    }
 }
 
 .blogPhoto {
@@ -20,19 +24,12 @@
 
 .blog-preview {
     margin-left: 20px;
-}
-
-.blog-preview h2 a {
-    color: black;
-}
-
-.blogCard p {
-    line-height: 1em;
-}
-
-
-.hero-content a  {
-    line-height: 0;
+    h2 {
+        color: black;
+    }
+    a {
+        color: black;
+    }
 }
 
 
