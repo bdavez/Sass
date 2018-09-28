@@ -13,6 +13,14 @@
     color:$accent-color2;
 }
 
+.heroAbout {
+    @include heroBackground($blogIndexMixin1,$blogIndexMixin2,
+        '../Pictures/rawpixel-669610-unsplash.jpg');
+    background-position: 50% 20%;
+    color:$accent-color2;
+
+}
+
 .hero-blog-example {
     @include heroBackground($blogIndexMixin1,$blogIndexMixin2,
             '../Pictures/kenny-luo-553614-unsplash.jpg');
