@@ -1,20 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/BlogPageStyles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./css/app.css">
     <title>Blog#1</title>
 </head>
+
 <body>
-    
-    <div class="hero">
+
+    <header>
+        <nav class="nav-main">
+            <div class="logo">
+                <a href="./index.html">
+                    <i class="fas fa-pen-alt"></i>
+                </a>
+            </div>
+            <ul class="desktop-menu">
+                <li><a href="./index.html">Blog List</a></li>
+                <li><a href="./BlogExample.html">Blog</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+
+            <div class="mobile-nav-icon">
+                <a href="javascript:void(0)" onclick="openNav()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <div class="mobile-nav" id="nav-mobile">
+            <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                    <i class="fas fa-times"></i>
+                </a></li>
+            <li><a href="./index.html">Homepage</a></li>
+            <li><a href="./index.html">Blog List</a></li>
+            <li><a href="./BlogExample.html">Blog</a></li>
+            <li><a href="./about.html">About</a></li>
+        </div>
+    </header>
+
+    <div class="hero-blog-example">
         <div class="container">
             <div class="hero-content">
-                <div><a href="./BlogSiteNames.html">&lt- Back</a></div> 
+                <div><a href="./index.html">&lt- Back</a></div>
                 <h1>Blog #1</h1>
                 <p>Jan 25, 2018</p>
             </div>
@@ -30,7 +65,7 @@
                     Praesent congue pulvinar eros ut condimentum. Curabitur vel convallis dolor. Fusce vitae
                     ante quis ex posuere faucibus. Cras faucibus metus egestas venenatis porttitor.
                     Vestibulum sed sagittis mi. Maecenas eget justo luctus, blandit diam eget, accumsan
-                    nulla. In hac habitasse platea dictumst. Aliquam rhoncus dui in massa viverra dapibus.  
+                    nulla. In hac habitasse platea dictumst. Aliquam rhoncus dui in massa viverra dapibus.
                 </p>
                 <p>
                     Maecenas ac lobortis turpis. Sed volutpat, nibh at consequat pellentesque, mi ante
@@ -47,7 +82,7 @@
                     quis metus. Etiam maximus mauris ut feugiat sodales. Fusce posuere ante ac arcu
                     hendrerit, quis posuere nibh dignissim. Vestibulum ante ipsum primis in faucibus orci
                     luctus et ultrices posuere cubilia Curae; Vestibulum sit amet venenatis libero, in vulputate
-                    mi. Morbi laoreet turpis dolor, dictum porttitor libero dapibus eu. 
+                    mi. Morbi laoreet turpis dolor, dictum porttitor libero dapibus eu.
                 </p>
                 <p>
                     Aliquam vitae hendrerit turpis. Aliquam ac lobortis mi. Praesent commodo, nulla nec
@@ -66,8 +101,20 @@
                 </p>
             </div>
         </div>
-
     </main>
 
+    <footer>
+        <div class="footer-main">
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook "></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram "></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter-square "></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube "></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./js/nav-menu.js"></script>
 </body>
+
 </html>

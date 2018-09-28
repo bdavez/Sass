@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./css/app.css">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-main">
+            <div class="logo">
+                <a href="./index.html">
+                    <i class="fas fa-pen-alt"></i>
+                </a>
+            </div>
+            <ul class="desktop-menu">
+                <li><a href="./index.html">Blog List</a></li>
+                <li><a href="./BlogExample.html">Blog</a></li>
+                <li><a href="./about.html">About</a></li>
+            </ul>
+
+            <div class="mobile-nav-icon">
+                <a href="javascript:void(0)" onclick="openNav()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <div class="mobile-nav" id="nav-mobile">
+            <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                    <i class="fas fa-times"></i>
+                </a></li>
+            <li><a href="./index.html">Homepage</a></li>
+            <li><a href="./index.html">Blog List</a></li>
+            <li><a href="./BlogExample.html">Blog</a></li>
+            <li><a href="./about.html">About</a></li>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>SASS Assignment</h1>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="main-wrapper">
+            <div class="container">
+                <div class="blogCard">
+                    <img src="../Sass-Assignment/Pictures/malte-wingen-381988-unsplash.jpg" width="200" height="200"
+                        alt="headphones">
+                    <div class="blog-preview">
+                        <h2> <a href="./BlogExample.html">Blog #1</a></h2>
+                        <p>Jan 25, 2018</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                            veniam</p>
+                    </div>
+                </div>
+                <div class="blogCard">
+                    <img src="../Sass-Assignment/Pictures/charles-deluvio-540418-unsplash.jpg" width="200" height="200"
+                        alt="Dog">
+                    <div class="blog-preview">
+                        <h2>Blog #2</h2>
+                        <p>Jan 25, 2018</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                            veniam</p>
+                    </div>
+                </div>
+                <div class="blogCard">
+                    <img src="../Sass-Assignment/Pictures/mahir-uysal-529531-unsplash.jpg" width="200" height="200" alt="Dog">
+                    <div class="blog-preview">
+                        <h2>Blog #3</h2>
+                        <p>Jan 25, 2018</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                            veniam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-main">
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook "></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram "></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter-square "></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube "></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./js/nav-menu.js"></script>
+</body>
+
+</html>

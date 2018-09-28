@@ -1,0 +1,47 @@
+@mixin heroBackground ($color1,$color2,$url){
+    background: linear-gradient(90deg,$color1,$color2),
+                url($url);
+    height: 700px;
+    width: 1000;
+    background-size: cover;
+}
+
+.hero {
+    @include heroBackground($color1,$color2,
+            '../Pictures/kari-shea-109894-unsplash.jpg');
+    background-position: 50% 20%;
+    color:$accent-color2;
+}
+
+.heroAbout {
+    @include heroBackground($color1,$color2,
+        '../Pictures/rawpixel-669610-unsplash.jpg');
+    background-position: 50% 20%;
+    color:$accent-color2;
+
+}
+
+.hero-blog-example {
+    @include heroBackground($color1,$color2,
+            '../Pictures/kenny-luo-553614-unsplash.jpg');
+    background-position: 50% 80%;
+    color: $accent-color2;
+    opacity: 0.90;
+}
+
+.hero-content {
+    padding-top: 150px;
+}
+
+.hero-content h1 p{
+    margin-left: 50px;
+}
+
+.hero-content a {
+    color: $accent-color2;
+}
+
+.hero-content a  {
+    line-height: 0;
+}
+

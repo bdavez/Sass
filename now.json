@@ -1,0 +1,10 @@
+{
+    "type": "static",
+    "files": [
+        "Pictures"
+        "css"
+        "index.html"
+        "BlogExample.html"
+        "about.html"
+    ]
+}
