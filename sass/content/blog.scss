@@ -1,0 +1,42 @@
+
+.main-wrapper {
+    min-height: 700px;
+    padding: 50px 0;
+}
+
+.blogCard {
+    display:flex;
+    margin: 50px 0;
+    
+    p {
+        line-height: 1em;
+    }
+}
+
+.blogPhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:$accent-color;
+}
+
+.blog-preview {
+    margin-left: 20px;
+    h2 {
+        color: black;
+    }
+    a {
+        color: black;
+    }
+}
+
+
+@media (max-width: 770px) {
+    .blogCard {
+        flex-direction: column;
+    }
+    .blog-preview {
+        margin-left: 0;
+    }
+}

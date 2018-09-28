@@ -31,7 +31,7 @@ header {
                 color: $secondary-color;
                 margin-left: 50px;
                 padding: 20px;
-                font-size: 30px;
+                font-size: 25px;
                 
             &:hover {
                 background: $accent-color;
@@ -53,7 +53,7 @@ header {
             
                 a {
                     padding: 20px;
-                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    font-family: $font-style;
                     font-size: 30px;
                     text-decoration: none;
                     color: $secondary-color; 
@@ -112,6 +112,7 @@ header {
         text-decoration: none;
         font-size: 25px;
         color: $secondary-color;
+        font-family: $font-style;
         display: block;
         transition: 0.3s;
     
